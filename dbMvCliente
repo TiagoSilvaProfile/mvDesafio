@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[MvCliente]
+(
+	[CPF] CHAR(10) NOT NULL PRIMARY KEY , 
+    [Nome] VARCHAR(50) NOT NULL, 
+    [OpcaoCafe] VARCHAR(50) NOT NULL, 
+    [Contato] CHAR(10) NULL,
+    [Observação] VARCHAR(50) NULL 
+    
+)
